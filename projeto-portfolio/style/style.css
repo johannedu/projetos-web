@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2.titulo {
+    color: white;
+    text-transform: uppercase;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span {
+    color: #00FF11;
+}
+
+.flex {
+    display: flex;
+}
+
+.botao-header {
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #000;
+    background: #00FF11;
+    cursor: pointer;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+/* GLOBAIS */
+body {
+    background: #000;
+    height: 100vh;
+    font-family: 'Poppins';
+}
+
+
+
+header {
+    padding: 40px 4%;
+    
+}
+
+header > .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-site {
+    margin: 20px;
+    display: block;
+}
+
+.lista-menu-header {
+    display: flex;
+    list-style: none;
+}
+
+.lista-menu-header li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.lista-menu-header a {
+    color: #7d7d7d;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.lista-menu-header a:hover {
+    color: #fff;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+
+.botao-header:hover {
+    box-shadow: 0px 0px 8px #00FF11;
+    transition: .2s;
+}
+
+/* FIM HEADER */
+
+/* INÍCIO MAIN */
+
+.topo-do-site {
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+h1 span {
+    color: #00FF11;
+}
+
+p {
+    color: #fff;
+    margin: 40px 0;
+}
+
+.img-topo-site{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+    0%{
+        top: 0;
+    }
+    100% {
+        top: 30px;
+    }
+}
+
+/* INICIO MEIO DA MAIN */
+
+.especialidades{
+    padding: 40px 4%;
+}
+
+.especialidades .flex {
+    gap: 60px;
+}
+
+.especialidades .especialidades-box {
+    color: white;
+    padding: 40px ;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: 1.2s;
+
+}
+
+.especialidades .especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.461);
+}
+
+.especialidades .especialidades-box i {
+    font-size: 70px;
+    color: #00FF11;
+}
+
+.especialidades .especialidades-box h3 {
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+
+/* INICIO SOBRE MIM */
+
+.sobre-mim {
+    padding: 80px 4%;
+}
+
+.sobre-mim .interface .flex {
+    align-items: center;
+    gap: 100px;
+}
+
+
+.sobre-mim .interface .flex .sobre-mim-textos h2 {
+    text-align: start;
+    font-size: 50px;
+    line-height: 1;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+
+.sobre-mim .interface .flex .sobre-mim-textos p {
+    margin: 20px 10px;
+    text-align: justify;
+}
+
+.btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background: #00FF11;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: .9s;
+}
+
+.btn-social button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.461);
+}
+
+/* INICIO PORTFOLIO */
+
+section.portfolio {
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff15;
+
+}
+
+section.portfolio .flex {
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+section.portfolio .img-port {
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 5s;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+}
+
+
+
+section.portfolio .img-port:hover {
+    background-position: 100% 100%;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000008d;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0;
+    transition: .7s;
+}
+
+
+.overlay:hover {
+    opacity: 1;
+}
