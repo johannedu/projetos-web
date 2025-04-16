@@ -47,8 +47,6 @@ body {
     font-family: 'Poppins';
 }
 
-
-
 header {
     padding: 40px 4%;
     
@@ -266,4 +264,45 @@ section.portfolio .img-port:hover {
 
 .overlay:hover {
     opacity: 1;
+}
+
+.formulario {
+    padding: 80px 4%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 15px;
+    background-color: #3c3939;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+textarea {
+    padding: 20px;
+    background: #3c3939;
+    border: none;
+    border-radius: 20px;
+    resize: none;
+    font-family: "Poppins";
+    color: #fff;
+}
+
+.btn-enviar {
+    text-align: center;
+}
+
+.btn-enviar input {
+    width: 150px;
+    font-size: 20px;
 }
