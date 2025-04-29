@@ -1,0 +1,47 @@
+.section-um-bg h2 {
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-um-bg span {
+    color: var(--cor-6);
+}
+
+.flex {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.flex img {
+    max-width: 100%;
+    display: block;
+    transition: .3s;
+}
+
+.flex img:hover {
+    max-width: 110%;
+}
+
+
+
+.section-um-bg .conteudo h3, p{
+    margin-top:8px ;
+}
+
+
+.section-um-bg .conteudo h3::before{
+    content: " ";
+    width: 4px;
+    display: inline-block;
+    height: 20px;
+    background: var(--cor-6);
+    margin-right: 3px;
+}
+

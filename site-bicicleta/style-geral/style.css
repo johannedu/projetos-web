@@ -1,0 +1,19 @@
+@import "header/header.css";
+@import "utilitarios/fontes.css";
+@import "header/header.css";
+@import "main/main.css";
+@import "utilitarios/cores.css";
+@import "section-um/section-um.css";
+@import "section-dois/section-dois.css";
+
+
+
+* {
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+

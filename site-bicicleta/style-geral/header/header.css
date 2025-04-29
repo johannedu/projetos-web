@@ -1,0 +1,21 @@
+.header-bg {
+    background: #111;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 25px;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+
