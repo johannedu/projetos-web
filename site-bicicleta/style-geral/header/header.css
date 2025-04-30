@@ -18,4 +18,12 @@
     gap: 40px;
 }
 
+nav a {
+    font-size: 1.125rem;
+    transition: .5s;
+}
 
+
+nav a:hover {
+    color: var(--cor-6);
+}

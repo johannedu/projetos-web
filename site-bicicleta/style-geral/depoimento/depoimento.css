@@ -1,0 +1,47 @@
+
+
+.depoimento {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    background: var(--cor-6);
+    overflow: hidden;
+}
+
+.julia-depoimento {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0px;
+}
+
+.depoimento-julia {
+    align-self: end;
+    margin-bottom: 100px;
+}
+
+.fonte {
+    font: italic 600 6rem/1 "Merriweather";
+    max-width: 32ch;
+    position: relative;
+}
+
+.fonte::after,
+.fonte::before {
+    font-size: 6rem;
+    color: #434343;
+    position: absolute;
+   
+}
+
+.fonte::before {
+    content: "“";
+    left: -37px;
+    top: -20px;
+}
+
+.fonte::after {
+    content: "”";
+}
+
+

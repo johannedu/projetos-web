@@ -5,6 +5,8 @@
 @import "utilitarios/cores.css";
 @import "section-um/section-um.css";
 @import "section-dois/section-dois.css";
+@import "parceiros/parceiros.css";
+@import "depoimento/depoimento.css";
 
 
 
@@ -17,3 +19,7 @@ a {
     text-decoration: none;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+}
