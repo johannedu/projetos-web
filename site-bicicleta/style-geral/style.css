@@ -7,6 +7,8 @@
 @import "section-dois/section-dois.css";
 @import "parceiros/parceiros.css";
 @import "depoimento/depoimento.css";
+@import "seguros/seguros.css";
+@import "footer/footer.css";
 
 
 
@@ -22,4 +24,12 @@ a {
 img {
     display: block;
     max-width: 100%;
+}
+
+span {
+    color: var(--cor-6);
+}
+
+ul {
+    list-style: none;
 }

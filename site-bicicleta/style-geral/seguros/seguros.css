@@ -1,0 +1,103 @@
+.seguros-bg {
+    background: #2e2e2e;;
+}
+
+.seguros p {
+    display: inline;
+    color: white;
+}
+
+.seguros {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.seguros h2 {
+    grid-column: 1/-1;
+}
+
+.seguros-item {
+    border-radius: 10px;
+    background-color: black;
+    padding: 32px 32px 32px 60px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin: 10px;
+  }
+
+.seguros-item ul li {
+    padding: 20px;
+    position: relative;
+}
+
+.seguros-item h3 {
+    margin-bottom: 40px;
+}
+
+.seguros-item span {
+    grid-column: 2;
+    display: block;
+}
+
+.seguros-item ul {
+    grid-column: 1/-1;
+    margin-bottom: 32px;
+}
+
+.seguros-item a {
+    grid-column: 1/-1;
+}
+
+.seguros-item ul li::before {
+    content: url(../../images/icones/lista.svg);
+    display: block;
+    position: absolute;
+    left: -10px;
+}
+
+.seguros-item span {
+    color: white;
+    font-size: 30px;
+}
+
+#span-mensal {
+    font-size: 15px;
+    font-weight: 400;
+    justify-self: end;
+}
+
+#botao-mensal-prata {
+    padding: 10px;
+    color: #ffffffc1;
+    background: #2e2e2e;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Poppins";
+    border-radius: 4px;
+}
+
+#botao-mensal-ouro {
+    padding: 10px;
+    color: #000;
+    background: var(--cor-6);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Poppins";
+    border-radius: 4px;
+}
+
+.seguros-item a {
+    justify-self: start;
+}
+
