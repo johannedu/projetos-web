@@ -1,0 +1,98 @@
+@media screen and (max-width: 870px){
+    section .menu-dekstop, section.btn-contato{
+        display: none;
+    }
+
+    section.hero-park .text h1 {
+        font-size: 2rem;
+        line-height: 30px;
+    }
+
+    section.hero-park .text p {
+        font-size: 1rem;
+    }
+
+    .hero-park .text button {
+    border-radius: 5px;
+    font-size: 1rem;
+    }
+
+    .section-two .interface .box-itenn .text h3 {
+    font-size: 2rem;
+    line-height: 40px;
+    text-align: center;
+    }
+
+    .section-two .interface .box-itenn .text p {
+    font-size: .8rem;
+    line-height: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-align: center;
+    }
+
+    .section-two .interface .box-itenn {
+    flex-direction: column;
+    }
+
+    .section-two .interface .box-itenn img {
+    width: 100%;
+    display: block;
+    }
+
+    .section-two .interface .box-itenn .item-1 {
+        order: 1;
+    }
+
+    .flex {
+    flex-direction: column;
+    text-align: center;
+    }
+
+    .flex .text-cta h3 {
+    font-size: 2rem;
+    line-height: 40px;
+    margin-bottom: 20px;
+    }
+
+    .contact .contact-redes {
+    display: flex;
+    margin: 15px auto 20px auto;
+    border: 2px solid black;
+    padding: 0px 60px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    height: 60px;
+    width: 240px;
+    }
+
+    .como-funciona, .conteudo-box {
+    display: block;
+    width: 100%;
+    }
+
+    .como-funciona  {
+    position: static;
+    }
+
+    .como-funciona h3{
+    font-size: 3rem;
+    line-height: 40px;
+    font-weight: 300;
+    text-align: center;
+    }
+
+    .conteudo-box .conteudo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 20px;
+    flex-direction: column;
+    text-align: center;
+    }
+
+
+}
