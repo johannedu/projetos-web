@@ -1,0 +1,55 @@
+.section-five {
+    padding: 80px 0;
+    height: 70vh;
+    background-color: #EFECEC;
+}
+
+.como-funciona, .conteudo-box {
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    vertical-align: top;
+}
+
+.como-funciona  {
+    position: sticky;
+    top: 50%;
+    padding-bottom: 16px;
+}
+
+.como-funciona h3{
+    font-size: 4rem;
+    line-height: 60px;
+    font-weight: 300;
+}
+
+.como-funciona h3 span {
+    display: block;
+    font-weight: 800;
+}
+
+.conteudo-box .conteudo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.conteudo-box .conteudo .img-conteudo img {
+    max-width: 150px;
+}
+
+.conteudo-box .conteudo  .txt-conteudo h4{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.conteudo-box .conteudo  .txt-conteudo h4 span {
+    font-weight: 400;
+}
+
+.conteudo-box .conteudo  .txt-conteudo p {
+    font-size: .900rem;
+}

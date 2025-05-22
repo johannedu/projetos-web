@@ -1,0 +1,45 @@
+header .interface section i {
+    font-size: 2rem;
+}
+
+header .interface{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    padding: 40px 0;
+    background: #efecec;
+    position: fixed;
+}
+
+.btn-contato button {
+    color: black;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: transparent;
+}
+
+.menu-dekstop a,.btn-contato button {
+    color: black;
+    font-size: 1.125rem;
+}
+
+.interface section ul li a,
+.interface section a button{
+    transition: .5s;
+}
+
+.interface section ul li a:hover {
+    transform: scale(1.2);
+}
+
+.interface section a button:hover {
+    background: #ffffff;
+    color: black;
+    font-size: 1.125rem;
+}

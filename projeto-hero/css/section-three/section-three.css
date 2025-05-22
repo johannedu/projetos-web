@@ -1,0 +1,31 @@
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.flex .text-cta h3 {
+    font-size: 3rem;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.flex .text-cta h3 span {
+    font-weight: 400;
+}
+
+.contact .contact-redes {
+    display: flex;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px 60px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.contact .contact-redes a {
+    color: black;
+}
+

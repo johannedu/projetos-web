@@ -1,0 +1,35 @@
+.section-two {
+    background: #efecec;
+    padding: 40px;
+}
+
+.section-two .interface .box-itenn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    gap: 5%;
+}
+
+.section-two .interface .box-itenn img {
+    width: 480px;
+    display: block;
+}
+
+.section-two .interface .box-itenn .text h3 {
+    font-size: 3rem;
+    line-height: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.section-two .interface .box-itenn .text span {
+    font-weight: 300;
+}
+
+.section-two .interface .box-itenn .text p {
+    font-size: 1.5rem;
+    line-height: 40px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
