@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Alumni Sans SC';
+    box-sizing: border-box;
+    height: 500vh;
+}
+
+nav {
+    width: 80px;
+    background-color: #1F1F1F;
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 #E7006B;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    transition: 1s;
+    overflow: hidden;
+}
+
+nav.expandir {
+width: 300px;
+}
+
+.divum {
+    padding: 15px;
+    width: 100%;
+}
+
+.divum a {
+    font-size: 2.3rem;
+    color: rgb(239, 233, 233);
+}
+
+ul {
+    list-style: none;
+    padding: 20px;
+    height: 100%;
+}
+
+
+
+ul a {
+    font-size: 2.3rem;
+    color: rgb(239, 233, 233);
+    text-decoration: none;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 40px;
+    line-height: 40px;
+    transition: .8s;
+}
+
+ul li.ativo {
+    transition: 0s;
+}
+
+ul li.ativo {
+    background-color: rgb(72, 0, 255);
+}
+
+ul a .txt-link {
+    margin-left: 40px;
+    
+}
+
+ul li a:hover {
+    background-color: #E7006B;
+}
